@@ -14,7 +14,7 @@ It is recommended that you save the output of this script to a file and parse it
 Good question. The main reason I made this was becuase I was curious which version of dwm was more widely supported, and which patches did in fact support it. Using my script and the handy math function from my favorite shell `fish` I found that *70.2% of patches have explicit support for 6.2*.
 
 ```fish
-math (./suckless-patches.sh | grep "6.2" | wc -l)/(./suckless-patches.sh -l | wc -l)
+math (./dwm-patch-fetch.sh | grep "6.2" | wc -l)/(./dwm-patch-fetch.sh -l | wc -l)
 ```
 
 The reason I say 'explicit' is because some patches aren't named `mycoolpatch-6.2.diff` so its hard to really know an exact number through scripting, but we can safely say that over 70% of patches work with 6.2. 

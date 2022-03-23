@@ -11,7 +11,7 @@ PATCH_URI="https://dwm.suckless.org/patches"
 
 usage()
 {
-    echo "Usage: suckless-patches.sh [options...]"
+    echo "Usage: $(basename $0) [options...]"
     echo " -t  Spawn every patch request in a separate thread."
     echo " -d  Only in threaded mode. The delay between the creation of a new thread. (Default: 1)"
     echo " -v  Version information."
