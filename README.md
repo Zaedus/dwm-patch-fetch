@@ -6,7 +6,7 @@ It is recommended that you save the output of this script to a file and parse it
 
 ## Features
 
-- Listing the URLS of all of the diffs
+- Listing the urls of all of the diffs
 - Listing all of the patches
 
 ## Dependencies
