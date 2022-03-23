@@ -9,6 +9,13 @@ It is recommended that you save the output of this script to a file and parse it
 - Listing the URLS of all of the diffs
 - Listing all of the patches
 
+## Dependencies
+
+- bash (obviously)
+- html-xml-utils
+- curl
+- grep
+
 ## Why make this?
 
 Good question. The main reason I made this was becuase I was curious which version of dwm was more widely supported, and which patches did in fact support it. Using my script and the handy math function from my favorite shell `fish` I found that *70.2% of patches have explicit support for 6.2*.
